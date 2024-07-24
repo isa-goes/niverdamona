@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #010002;
+}
+
+#carta {
+    display: none;
+    /* Inicialmente oculta */
+    width: 300px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #230a80;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+
+}
+
+#botao {
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #060c57;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: #422970;
+}

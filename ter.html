@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Oculta</title>
+    <link rel="stylesheet" href="ter.css">
+
+</head>
+
+<body>
+    <button id="botao" onclick="toggleCarta()">Te amo</button>
+    <div id="carta">
+        <h2>Parabéns isa</h2>
+        <p>Isso que eu fiz pra você, não chegou nem perto no que eu realmente queria fazer, espero que tenha gostado!
+        </p>
+    </div>
+
+    <script>
+        function toggleCarta() {
+            const carta = document.getElementById('carta');
+            if (carta.style.display === 'none' || carta.style.display === '') {
+                carta.style.display = 'block'; // Mostra a carta
+            } else {
+                carta.style.display = 'none';  // Esconde a carta
+            }
+        }
+    </script>
+</body>
+
+</html>
